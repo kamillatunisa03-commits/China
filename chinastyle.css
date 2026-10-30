@@ -1,0 +1,106 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+body > header {
+    background-color: rgb(190, 6, 6);
+    color: white;
+}
+
+header h1 {
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+}
+
+header p {
+    text-align: center;
+    color: white;
+    padding-bottom: 30px;
+}
+
+nav {
+    background-color: rgb(224, 19, 19);
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    padding: 20px;
+}
+
+nav a {
+    background-color: rgb(224, 19, 19);
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: rgb(231, 217, 21);
+    font-weight: bold;
+}
+
+a:hover::after {
+    content: "❀";
+}
+
+main {
+    display: flex;
+    margin: 40px;
+    gap: 20px;
+}
+
+/* Bagian content */
+#content {
+    flex: 3;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+                0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+}
+
+aside {
+    flex: 1;
+}
+
+figure {
+    text-align: center;
+}
+
+/* Mengatur ukuran gambar */
+figure img {
+    width: 300px;
+    height: 250px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+}
+
+article {
+    margin: 20px;
+}
+
+h3 {
+    text-align: center;
+}
+
+section {
+    margin: 20px;
+}
+
+header h2 {
+    text-align: center;
+}
+
+article h2{
+    padding: 15px;
+}
